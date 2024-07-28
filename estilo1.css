@@ -22,10 +22,12 @@ p {
 div#principal {
     display: block;
     width: 920px;
+    background-color: blueviolet;
     margin-top: -20px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 10px 10px 10px;
 }
 header#cabecalho {
 
