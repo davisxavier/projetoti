@@ -43,6 +43,11 @@ section#corpo {
     border-right: 1px solid #606060;
     padding-right: 15px;
 }
+section#corpo p {
+    text-align: justify;
+    text-indent: 50px;
+    color: blue;    
+}
 aside#lateral {
     display: inline-block;
     position: absolute;
