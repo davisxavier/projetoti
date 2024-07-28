@@ -48,7 +48,13 @@ section#corpo p {
     text-indent: 50px;
     color: blue;    
 }
+article#bio h2 {
+    text-align: center;
+    text-indent: 50px;
+    color: blue;    
+}
 article#bio p {
+    padding-left: 10px;
     text-align: justify;
     text-indent: 50px;
     color: blue;    
