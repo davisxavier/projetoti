@@ -21,11 +21,11 @@ p {
     text-indent: 50px;
 }
 div#principal {
-    display: block;
+    /*display: block;
     width: 920px;
     background-color: blueviolet;
     margin: auto;
-    /*margin-top: -20px;
+    margin-top: -20px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
