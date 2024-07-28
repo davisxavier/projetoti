@@ -20,7 +20,8 @@ p {
     text-indent: 50px;
 }
 div#principal {
-    align-content: center;
+    text-align: center;
+
 }
 header#cabecalho {
 
