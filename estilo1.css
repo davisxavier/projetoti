@@ -48,6 +48,11 @@ section#corpo p {
     text-indent: 50px;
     color: blue;    
 }
+article#bio p {
+    text-align: justify;
+    text-indent: 50px;
+    color: blue;    
+}
 aside#lateral {
     display: inline-block;
     position: absolute;
