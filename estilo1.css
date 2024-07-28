@@ -19,6 +19,9 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+div#principal {
+    align-content: center;
+}
 header#cabecalho {
 
 }
