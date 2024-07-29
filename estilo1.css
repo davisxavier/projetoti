@@ -93,6 +93,16 @@ aside#lateral {
 aside#div {
     text-align: center;
 }
+div#msg {
+    text-align: center;
+    padding: 3px;
+    float: left;
+}
+div#horadia {
+    text-align: center;
+    padding: 3px;
+    float: left;
+}
 aside#lateral p {
     color: blue;
 }
