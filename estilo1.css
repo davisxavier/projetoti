@@ -48,7 +48,7 @@ header#cabecalho h3{
 section#corpo {
     display: inline-block;
     /*position: absolute;*/
-    width: 550px;
+    width: 500px;
     margin-left: 100px;
     margin-right: 10px;
     background-color: white;
@@ -69,7 +69,7 @@ article#bio p {
 aside#lateral {
     display: inline-block;
     /*position: absolute;*/
-    width: 450px;
+    width: 400px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
