@@ -69,7 +69,7 @@ article#bio p {
 aside#lateral {
     display: inline-block;
     /*position: absolute;*/
-    width: 500px;
+    width: 450px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
