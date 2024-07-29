@@ -83,7 +83,7 @@ footer#rodape {
     width: 900px;
     margin-left: 90px;
     border-top: 1px solid #606060;
-    padding-left: 150px;
+    /*padding-left: 150px;*/
 }
 footer#rodape p {
     text-align: center;
