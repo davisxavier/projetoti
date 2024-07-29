@@ -68,7 +68,7 @@ article#bio p {
 }
 aside#lateral {
     display: inline-block;
-    /*position: absolute;*/
+    position: absolute;
     width: 400px;
     margin-left: 10px;
     margin-right: 10px;
@@ -79,7 +79,7 @@ aside#lateral {
 }
 footer#rodape {
     display: inline-block;
-    position: absolute;
+    /*position: absolute;*/
     width: 900px;
     margin-left: 90px;
     border-top: 1px solid #606060;
