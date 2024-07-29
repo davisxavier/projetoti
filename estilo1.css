@@ -56,6 +56,7 @@ section#corpo {
     display: inline-block;
     /*position: absolute;*/
     width: 500px;
+    height: 500px;
     margin-left: 100px;
     margin-right: 10px;
     margin-bottom: 3px;
