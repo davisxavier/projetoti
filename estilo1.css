@@ -90,6 +90,9 @@ aside#lateral {
     margin-top: auto;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+aside#div {
+    text-align: center;
+}
 aside#lateral p {
     color: blue;
 }
