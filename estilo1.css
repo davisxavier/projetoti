@@ -60,6 +60,7 @@ section#corpo {
     margin-right: 10px;
     margin-bottom: 3px;
     background-color: white;
+    border-radius: 10px;
     border-right: 1px solid #606060;
     padding-right: 15px;
 }
@@ -78,6 +79,7 @@ aside#lateral {
     display: inline-block;
     position: absolute;
     width: 400px;
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: white;
