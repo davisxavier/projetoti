@@ -19,6 +19,13 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 div#principal {
     /*display: block;
     width: 920px;
