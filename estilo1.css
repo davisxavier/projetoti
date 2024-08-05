@@ -109,6 +109,10 @@ div#horadia {
 aside#lateral p {
     color: blue;
 }
+table#tabasidimg {
+    border: 1px;
+    color: blue;
+}
 footer#rodape {
     display: inline-block;    
     /*position: absolute;*/
