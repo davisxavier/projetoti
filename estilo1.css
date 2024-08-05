@@ -109,7 +109,7 @@ div#horadia {
 aside#lateral p {
     color: blue;
 }
-table#tabasidimg {
+table#tabasidimg td{
     border: 1px;
     color: blue;
 }
