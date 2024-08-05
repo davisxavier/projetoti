@@ -109,6 +109,10 @@ div#horadia {
 aside#lateral p {
     color: blue;
 }
+table#tabasidimg tr{
+    border: 1px solid blue;
+    text-align: center;
+}
 table#tabasidimg td{
     border: 1px solid blue;
     text-align: center;
