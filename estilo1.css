@@ -110,8 +110,7 @@ aside#lateral p {
     color: blue;
 }
 table#tabasidimg td{
-    border: 1px;
-    color: blue;
+    border: 1px solid blue;
 }
 footer#rodape {
     display: inline-block;    
