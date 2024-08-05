@@ -109,6 +109,9 @@ div#horadia {
 aside#lateral p {
     color: blue;
 }
+aside#lateral td {
+    border: 1px;
+}
 footer#rodape {
     display: inline-block;    
     /*position: absolute;*/
