@@ -111,6 +111,7 @@ aside#lateral p {
 }
 table#tabasidimg td{
     border: 1px solid blue;
+    text-align: center;
 }
 footer#rodape {
     display: inline-block;    
