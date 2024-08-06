@@ -116,10 +116,12 @@ div#horadia {
 }
 */
 table#tabasidimg tr{
+    color: blue;
     border: 1px solid blue;
     text-align: center;
 }
 table#tabasidimg td{
+    color: blue;
     border: 1px solid blue;
     text-align: center;
 }
