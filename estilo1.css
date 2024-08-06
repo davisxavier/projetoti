@@ -136,6 +136,9 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
+table#hora {
+  text-align: center;   
+}
 table#hora tr{
     color: blue;
     text-align: center;
@@ -143,4 +146,8 @@ table#hora tr{
 table#hora td{    
     color: blue;
     text-align: center;
+}
+article#arthora {
+    text-align: center;
+    
 }
