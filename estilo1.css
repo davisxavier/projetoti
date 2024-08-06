@@ -80,7 +80,7 @@ section#article p{
     color: blue;
 }
 
-aside#lateral {
+/*aside#lateral {
     display: inline-block;
     position: absolute;
     width: 400px;
@@ -120,7 +120,7 @@ table#tabasidimg tr{
 table#tabasidimg td{
     border: 1px solid blue;
     text-align: center;
-}
+}*/
 footer#rodape {
     display: inline-block;    
     /*position: absolute;*/
