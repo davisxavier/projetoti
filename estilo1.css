@@ -98,6 +98,7 @@ section#article p{
 aside#div {
     text-align: center;
 }
+*/
 div#msg {
     text-align: center;
     padding: 3px;
@@ -110,9 +111,10 @@ div#horadia {
     padding: 3px;
     float: left;
 }
-aside#lateral p {
+/*aside#lateral p {
     color: blue;
 }
+*/
 table#tabasidimg tr{
     border: 1px solid blue;
     text-align: center;
@@ -120,7 +122,7 @@ table#tabasidimg tr{
 table#tabasidimg td{
     border: 1px solid blue;
     text-align: center;
-}*/
+}
 footer#rodape {
     display: inline-block;    
     /*position: absolute;*/
