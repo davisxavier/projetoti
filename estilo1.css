@@ -142,12 +142,14 @@ table#hora {
 table#hora tr{
     color: blue;
     text-align: center;
+    border: 1px;
 }
 table#hora td{    
     color: blue;
     text-align: center;
+    border: 1px;
 }
 article#arthora {
     text-align: center;
-    
+
 }
