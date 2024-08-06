@@ -76,6 +76,9 @@ article#bio p {
     text-indent: 50px;
     color: blue;    
 }
+article{
+    color: blue;
+}
 aside#lateral {
     display: inline-block;
     position: absolute;
