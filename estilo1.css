@@ -126,7 +126,7 @@ table#tabasidimg td{
     text-align: center;
 }
 footer#rodape {
-    display: inline-block;    
+    display: block;    
     position: absolute;
     height: auto;
     width: auto;
