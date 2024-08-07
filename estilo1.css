@@ -54,7 +54,7 @@ header#cabecalho h3{
 }
 section#corpo {
     display: inline-block;
-    /*position: absolute;*/
+    position: absolute;
     width: auto;
     height: auto;
     margin-left: 100px;
@@ -127,7 +127,7 @@ table#tabasidimg td{
 }
 footer#rodape {
     display: inline-block;    
-    /*position: absolute;*/
+    position: absolute;
     height: auto;
     width: auto;
     margin-left: 90px;
