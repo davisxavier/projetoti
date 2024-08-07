@@ -4,45 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos</title>
-    <link rel="stylesheet" type="text/css" href="estilo1.css">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body onload="carregar()">
-    <div id="Principal">
-        <header id="cabecalho">
+    <div>
+        <header>
             <hgroup>
-                <h1>Técnico em Informática</h1>
-                <h3>Davis Xavier</h3>
+                <h1>Site de estudo</h1>
             </hgroup>
-            <nav id="menu">
-                <h3>Seja bem vindo!</h3>          
-            </nav>
+            <h3>Seja bem vindo!</h3>
         </header>
-        <section id="corpo">
-            <article id="bio">
-                <header id="cabecalho-bio">
-                    <hgroup>
-                        <h2>Biografia</h2>
-                    </hgroup>
+        <section id="sectionbody">
+            <article>
+                <header>
+                    <h2>Biografia</h2>
                 </header>
                 <p>Apaixonado por tecnologia e constantemente em busca de novos conhecimentos, estou atualmente desenvolvendo um site de teste para praticar e aprimorar as habilidades adquiridas no curso técnico de informática.</p>
-                <p>Imagem que altera dependedo da hora acessada.</p>
-                <table id="tabasidimg">
+            </article>
+            <h3>Mostrador de horário</h3>
+            <p>Conforme o horário do dia ele deve mudar a imagem como exibido na tabela a baixo.</p>
+            <div id="divtabsecdemo">
+                <table id="tabsecdemo">
                     <tr>
-                        <td>
-                            Madrugada                            
-                        </td>
-                        <td>
-                            Manhã                            
-                        <td>
-                            Tarde                            
-                        </td>
-                        <td>
-                            Noite                            
-                        </td>
+                        <td>Madrugada</td>
+                        <td>Manhã</td>
+                        <td>Tarde</td>
+                        <td>Noite</td>
                     </tr>
                     <tr>
                         <td>
-                            <img src="madrugada.png" alt="" width="40%">
+                            <img src="madrugada.png" alt="" width="30%">
                         </td>
                         <td>
                             <img src="manha.png" alt="" width="60%">
@@ -54,34 +45,21 @@
                             <img src="noite.png" alt="" width="60%">
                         </td>
                     </tr>
+
                 </table>
-            </article>
-            <article id="arthora">
-                <table id="hora">
-                    <tr>
-                        <td>
+            </div>
+            <div id="msg"></div>
                             <br>
-                        </td>
-                        <td>    
-                            <div id="msg"></div>
-                            <br>
-                            <div id="horadia">
-                                <img id="imagem" src="manha.png" alt="foto do dia" width="30%">
-                            </div>
-                        </td>
-                        <td>
-                            <br>
-                        </td>
-                    </tr>
-                </table>                
-            </article>
+            <div id="horadia">
+                <img id="imagem" src="manha.png" alt="foto do dia" width="10%">
+            </div>
         </section>
-        <aside id="lateral">
+        <aside>
             
         </aside>
         <footer id="rodape">
-            <p>Copyright&copy; 2024 - by Davis Xavier <br>
-            <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+            <p>Copyright&copy; 2024 - by Davis</p><p>
+                <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">Facebook</a></p>
         </footer>
     </div>
     <script src="index.js"></script>
