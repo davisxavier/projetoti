@@ -85,3 +85,11 @@ footer#rodape p {
     text-indent: 0px;
     text-align: center;
 }
+/*mostrador*/
+article#mostarticle p {
+    text-align: center;
+    text-indent: 0px;
+}
+article#mostarticle h3 {
+    padding-top: 20px;
+}
