@@ -19,3 +19,6 @@ function carregar() {
         document.main.style.background = 'black'
     }
 }
+function mudafoto (foto) {
+    document.getElementById("icone").src = foto;
+}

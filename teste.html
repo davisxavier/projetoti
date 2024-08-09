@@ -6,6 +6,7 @@
     <title>Estudos</title>
     <link rel="stylesheet" type="text/css" href="estilo1.css">
 </head>
+<script language="javascript" src="index.js"></script>
 <body onload="carregar()">
     <div>
         <header>
@@ -22,16 +23,19 @@
                 <p>Apaixonado por tecnologia e constantemente em busca de novos conhecimentos, estou atualmente desenvolvendo um site de teste para praticar e aprimorar as habilidades adquiridas no curso técnico de informática.</p>
             </article>
             <h3>Mostrador de horário</h3>
-            <p>Conforme o horário do dia ele deve mudar a imagem como exibido na tabela a baixo.</p>
+            <p>Conforme o horário do dia ele deve mudar a imagem como exibido nas opções abaixo.</p>
             <!--CRIANDO LISTA PARA SUBSTITUIR TABELA-->
             <nav id="navsec">
                 <ul>
-                    <li>Macrugada</li>
-                    <li>Manhã</li>
-                    <li>Tarde</li>
-                    <li>Noite</li>
+                    <li onmouseover="mudafoto ('madrugada.png')" onmouseout="mudafoto('madrugada.png')">Madrugada</li>
+                    <li onmouseover="mudafoto ('manha.png')" onmouseout="mudafoto('madrugada.png')">Manhã</li>
+                    <li onmouseover="mudafoto ('tarde.png')" onmouseout="mudafoto('madrugada.png')">Tarde</li>
+                    <li onmouseover="mudafoto ('noite.png')" onmouseout="mudafoto('madrugada.png')">Noite</li>
                 </ul>
             </nav>
+            <img id="icone" src="madrugada.png" alt="">
+
+
             <!-- FIM DO MENU VIA LISTA-->
             
             <div id="divtabsecdemo">
@@ -44,7 +48,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="madrugada.png" alt="" width="30%">
+                            <img src="madrugada.png" alt="" width="60%">
                         </td>
                         <td>
                             <img src="manha.png" alt="" width="60%">
@@ -76,6 +80,6 @@
                 <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">Facebook</a></p>
         </footer>
     </div>
-    <script src="index.js"></script>
+    
 </body>
 </html>
