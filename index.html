@@ -6,6 +6,7 @@
     <title>Estudos</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
+<script language="javascript" src="index.js"></script>
 <body onload="carregar()">
     <div>
         <header>
@@ -22,46 +23,33 @@
                 <p>Apaixonado por tecnologia e constantemente em busca de novos conhecimentos, estou atualmente desenvolvendo um site de teste para praticar e aprimorar as habilidades adquiridas no curso técnico de informática.</p>
             </article>
             <h3>Mostrador de horário</h3>
-            <p>Conforme o horário do dia ele deve mudar a imagem como exibido na tabela a baixo.</p>
-            <div id="divtabsecdemo">
-                <table id="tabsecdemo">
-                    <tr>
-                        <td>Madrugada</td>
-                        <td>Manhã</td>
-                        <td>Tarde</td>
-                        <td>Noite</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <img src="madrugada.png" alt="" width="30%">
-                        </td>
-                        <td>
-                            <img src="manha.png" alt="" width="60%">
-                        </td>
-                        <td>
-                            <img src="tarde.png" alt="" width="60%">
-                        </td>
-                        <td>
-                            <img src="noite.png" alt="" width="60%">
-                        </td>
-                    </tr>
-
-                </table>
-            </div>
+            <p>Conforme o horário do dia ele deve mudar a imagem como exibido nas opções abaixo.</p>
+            <nav id="navsec">
+                <ul>
+                    <li onmouseover="mudafoto ('madrugada.png')" onmouseout="mudafoto('madrugada.png')">Madrugada</li>
+                    <li onmouseover="mudafoto ('manha.png')" onmouseout="mudafoto('madrugada.png')">Manhã</li>
+                    <li onmouseover="mudafoto ('tarde.png')" onmouseout="mudafoto('madrugada.png')">Tarde</li>
+                    <li onmouseover="mudafoto ('noite.png')" onmouseout="mudafoto('madrugada.png')">Noite</li>
+                </ul>
+            </nav>
+            <img id="icone" src="madrugada.png" alt="">            
             <div id="msg"></div>
                             <br>
             <div id="horadia">
                 <img id="imagem" src="manha.png" alt="foto do dia" width="10%">
             </div>
         </section>
-        <aside>
-            
+        <aside id="asidebody">
+            <div id="divaside">
+                <h2>Contato</h2>
+                <p>Se você não está familiarizado com o Git, mas gostaria de compartilhar sua opinião, fazer um elogio, ou entrar em contato por qualquer motivo (parceria, encontro, ou apenas testes),  <a href="https://docs.google.com/forms/d/e/1FAIpQLSes2leFtJYoQl27JLNvGJuZ1pTRk1_Ff8iAMpWxWCh6vO7lPA/viewform?usp=sf_link" target="_blank">clique aqui para acessar o meu formulário.</a></p>
+            </div>
         </aside>
         <footer id="rodape">
             <p>Copyright&copy; 2024 - by Davis</p><p>
                 <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">Facebook</a></p>
         </footer>
     </div>
-    <script src="index.js"></script>
+    
 </body>
 </html>
