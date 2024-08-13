@@ -47,9 +47,16 @@ header#titlist {
     font-weight: bolder;
     padding-top: 25px;
 }
+div#diviframe{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
 iframe {
     margin-top: 50px;
-    margin-left: 30%;
+    margin-left: 30%;    
 }
 aside#asidebody {
     background-color: blue;
