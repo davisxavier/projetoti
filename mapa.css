@@ -47,40 +47,6 @@ header#titlist {
     font-weight: bolder;
     padding-top: 25px;
 }
-
-/*nav#navsec ul {
-    list-style: none;
-    text-transform: uppercase;
-}
-nav#navsec li {
-    display: inline-block;
-    background: blue;
-    color: white;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
-    width: 100px;
-}
-nav#navsec li:hover {
-    background-color: rgb(108, 108, 238);
-}
-div#divtabsecdemo{
-    text-align: center;
-    height: auto;
-    width: auto;
-    padding: 3px;
-}
-table#tabsecdemo tr {
-    border: 1px solid blue;
-    text-align: center;
-}
-table#tabsecdemo td {
-    border: 1px solid blue;
-    text-align: center;
-}
-img#icone {
-    margin-left: 40px;
-}*/
 aside#asidebody {
     background-color: blue;
     color: white;
