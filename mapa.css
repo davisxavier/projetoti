@@ -26,6 +26,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+p#lmapa {
+    text-align: right;
+    font-size: 11px;
+    padding-right: 50px;
+}
 section#sectionbody {
     background-color: white;
     color: blue;
