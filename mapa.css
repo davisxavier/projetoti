@@ -1,0 +1,104 @@
+body {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+section#sectionbody {
+    background-color: white;
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: justify;
+}
+header#titlist {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 25px;
+}
+
+/*nav#navsec ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#navsec li {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    width: 100px;
+}
+nav#navsec li:hover {
+    background-color: rgb(108, 108, 238);
+}
+div#divtabsecdemo{
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 3px;
+}
+table#tabsecdemo tr {
+    border: 1px solid blue;
+    text-align: center;
+}
+table#tabsecdemo td {
+    border: 1px solid blue;
+    text-align: center;
+}
+img#icone {
+    margin-left: 40px;
+}*/
+aside#asidebody {
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer#rodape {
+    margin-top: 3px;
+    border-top: 1px solid white;
+}
+footer#rodape p {
+    text-indent: 0px;
+    text-align: center;
+}
+article#mostarticle p {
+    text-align: center;
+    text-indent: 0px;
+}
+article#mostarticle h3 {
+    padding-top: 20px;
+}
