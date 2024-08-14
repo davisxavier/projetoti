@@ -93,18 +93,19 @@ td {
     }
 }
 table#tabsecdemo tr {
-    border: 1px solid blue;
     text-align: center;
 }
 table#tabsecdemo td {
-    border: 1px solid blue;
     text-align: center;
 }
 img#icone {
     margin-left: 40px;
 }
 nav#navmenu {
+    padding: 2px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
 }
 nav#navmenu ul {
     list-style: none;
