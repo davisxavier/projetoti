@@ -1,11 +1,5 @@
 body {
     background-color: #F2D0C4;
-    /*
-    --e-global-color-primary: #F2D0C4;
-    --e-global-color-secondary: #FFEEE2;
-    --e-global-color-text: #54595F;
-    --e-global-color-accent: #FFFFFF;
-    */
     font-family: Arial, Helvetica, sans-serif;
     color: #54595F;
 }
@@ -22,7 +16,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
-    text-align: justify;
+    text-align: center;
     text-indent: 50px;
 }
 a {
@@ -32,10 +26,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/*img {
-    max-width: 100%;
-    height: auto;
-}*/
 p#lmapa {
     text-align: right;
     font-size: 11px;
@@ -91,10 +81,6 @@ ul#album-fotos li:hover {
 ul#album-fotos li:hover span {
     opacity: 1;
 }
-/*ul#album-fotos li span {
-    opacity: 1;
-    color: #ffffff;
-}*/
 ul#album-fotos li#foto1 {
     background: url('joia1.jpg') no-repeat;
     background-position: 50% 50%;
@@ -155,82 +141,6 @@ ul#album-fotos li#foto6:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
-/*nav#navsec {
-    margin-bottom: 20px;
-}
-nav#navsec ul {
-    list-style: none;
-    text-transform: uppercase;
-}
-nav#navsec li {
-    display: inline-block;
-    background: blue;
-    color: white;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
-    width: 100px;
-    font-size: 10pt;
-    border-radius: 10px;
-}
-nav#navsec li:hover {
-    background-color: rgb(108, 108, 238);
-}
-div#divtabsecdemo{
-    text-align: center;
-    height: auto;
-    width: auto;
-    padding: 3px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-td {
-    padding: 10px;
-    vertical-align: top;
-}
-@media screen and (max-width: 600px) {
-    table, tr,td {
-        display: block;
-        width: 100%;
-    }
-    td {
-        margin-bottom: 20px;
-    }
-}
-table#tabsecdemo tr {
-    text-align: center;
-}
-table#tabsecdemo td {
-    text-align: center;
-}
-img#icone {
-    margin-left: 40px;
-}
-nav#navmenu {
-    padding: 2px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid blue;
-}
-nav#navmenu ul {
-    list-style: none;
-    width: 200px;
-}
-nav#navmenu li {
-    background: blue;
-    color: white;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
-    width: 100px;
-    border-radius: 10px;
-    font-size: 10pt;
-}
-nav#navmenu li:hover {
-    background-color: rgb(108, 108, 238);
-}*/
 aside#asidebody {
     background-color: #ffffff;
     color: #54595F;
