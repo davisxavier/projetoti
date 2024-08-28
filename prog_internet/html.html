@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+    <!DOCTYPE html> " doctype garante que o browser faça um esforço na tentativa de seguir as especificações relevantes, em vez de usar um modo de renderização diferente e que seja incompatível com algumas especificações.
+-->
+<html>
+<!--
+    <html lang="pt-br">
+-->
+<head>
+<!--
+    <meta charset="UTF-8">
+-->
+<!--
+    O meta charset é uma declaração de charset em HTML que especifica a codificação de caracteres para um documento HTML. Um charset é um conjunto de caracteres que o computador reconhece da mesma forma que uma calculadora reconhece números. Cada caractere digitado ou lido no computador tem uma representação em byte na memória, e cada charset representa esse caracter de uma forma diferente. 
+    O charset UTF-8 é o charset mais comum na web atual e faz parte de um padrão chamado Unicode. O UTF-8 é compatível com versões anteriores do ASCII e pode representar qualquer caractere Unicode padrão. A especificação HTML5 recomenda que os desenvolvedores web usem o UTF-8, pois ele cobre quase todos os caracteres e símbolos do mundo. 
+    Definir uma codificação UTF-8 em sua página pode ajudar a evitar problemas em outros navegadores.
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+    <title>Trabalho sobre HTML</title>
+<!--
+    título que aparece na barra de tarefas    
+-->
+</head>
+<body bgcolor="blue">
+<!--Note que o Bgcolor (usado para colocar cor no fundo do corpo do texto) já esta em vermelho, o motivo é que já se encontra em desuso a partir das novas tags usarei o style, um modo mais atual.-->    
+    <section>
+    <!--tag que cria uma seção dentro do meu site, isto facilita para os programas que leem.-->
+    <h1 style="text-align: center; color: white; font-family: Arial, Helvetica, sans-serif;">Negócios da Família</h1>    
+        <div style="background-color: #ffffff; border-radius: 
+        10px; padding: 5px;">
+            <!--Aqui estou usando o style para colocar o fundo de uma divisão que criei para o site. e um efeito na borda da divisão para ficar mais agradavel a visualização-->
+            <table width="100%">
+            <!-- aqui criei uma tabela para dividir e ter dois lados no meu arquivo html, um modo que mesmo ainda sendo usado já existem modos mais modernos, que acho que serão apresentados durante o curso técnico.
+            Esta tabela esta com a configuração de 80% para que eu veja uma parte da divisão atras da minha tabela.-->
+            <tr>
+                <!-- a tag tr cria uma linha dentro da tabela enquanto as tag td vai criar colulas-->
+                <td style="background-color: white; font-size: 12pt; color: blue; font-family: Arial, Helvetica, sans-serif; padding: 20px; width: 40%;">
+                    <center><b><p style="font-size: 25pt;">Fotografia</p></b><br></center>
+                    <p style="text-align: justify; text-indent: 20px;">Temos um garoto de 14 anos que esta se dedicado a um ramo que já foi meu hobby, a arte da fotografia, Arthur meu filho se apegou a alguns materias que eu tinha e adquiriu alguns do gosto e mais adequados ao seu nível quando começou e hoje já obtem imagens lindas, e agora investe em seu negócio começando a vender alguns produtos e imagens. <br>
+                    Confira algumas ao lado, ou acesse seu <a href="https://www.instagram.com/arthurgxavier2010/" target="_blank" rel="noopener noreferrer">instagram aqui</a>.</p>
+                <!--aqui do mesmo modo mostro outro comando que funciona para centralizar que hoje não é mais usual.--></td>
+                <td style="background-color: white; font-size: 12pt; color: blue; font-family: Arial, Helvetica, sans-serif; padding: 20px; width: 40%; border: 1px solid rgba(121, 121, 240, 0.3); border-radius: 10px;">
+                    <table style="text-align: center;">
+                        <tr>
+                            <td></td>
+                            <td><img src="arthur_1.jpg" width="50%" style="border-radius: 10px;"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><img src="arthur_3.jpg" width="100%" style="border-radius: 10px;"></td>
+                            <td><a href="https://www.instagram.com/arthurgxavier2010/" target="_blank" rel="noopener noreferrer"><img src="qrarthur.jpg" width="100%" style="border-radius: 10px;"></a></td>
+                            <td><img src="arthur_4.jpg" width="100%" style="border-radius: 10px;"></td>
+                        </tr>                        
+                        <tr>
+                            <td></td>
+                            <td><img src="arthur_2.jpg" width="50%" style="border-radius: 10px;"></td>
+                            <td></td>
+                        </tr>
+                    </table>   
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: white; font-size: 12pt; color: blue; font-family: Arial, Helvetica, sans-serif; padding: 20px; width: 40%; border: 1px solid rgba(121, 121, 240, 0.3); border-radius: 10px;">    
+                    <table style="text-align: center;">
+                        <tr>
+                            <td><img src="joia1.jpg" width="60%" style="border-radius: 10px;"></td>
+                            <td><img src="joia2.jpg" width="60%" style="border-radius: 10px;"></td>
+                            <td><img src="joia3.jpg" width="60%" style="border-radius: 10px;"></td>
+                        </tr>                        
+                        <tr>
+                            <td><img src="joia4.jpg" width="60%" style="border-radius: 10px;"></td>
+                            <td><img src="joia5.jpg" width="60%" style="border-radius: 10px;"></td>
+                            <td><img src="joia6.jpg" width="60%" style="border-radius: 10px;"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="background-color: white; font-size: 12pt; color: blue; font-family: Arial, Helvetica, sans-serif; padding: 20px; width: 40%; border-radius: 10px;">    
+                    <header>
+                        <h2>CONSIGNADOS</h2>
+                    </header>
+                    <P>Peças mês 08/2024</P>            
+                    <h3>✨ Brilhe Todos os Dias com Nossas Semijoias Exclusivas! ✨
+                    </h3>
+                    <p>Descubra a coleção que vai transformar o seu look! Nossas semijoias combinam elegância, qualidade e preços acessíveis, perfeitas para todas as ocasiões.</p>
+                    <h4>Agende uma visita - por nosso contato</h4>                
+                    <a href="https://wa.me/5551991080201" target="_blank" rel="noopener noreferrer">Whats direto com a revendedora</a><h6>Peças mês 08/2024 visitas até 05/09/2024</h6>
+
+                </td>
+            </tr>
+        </table>
+        </div>
+    </section>
+    <aside>
+
+    </aside>
+    <footer>
+        <div>    
+            <p style="text-align: center; color: white; font-size: 10pt;">Copyright&copy; 2024 - by Davis <br>
+                <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 10pt; text-decoration: none;">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 10pt; text-decoration: none;">Facebook</a><br>
+                <a href="https://wa.me/5551993473324" target="_blank" rel="noopener noreferrer" style="color: white; font-size: 10pt; text-decoration: none;">Whats</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
