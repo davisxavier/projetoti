@@ -1,0 +1,153 @@
+body {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+p#lmapa {
+    text-align: right;
+    font-size: 11px;
+    padding-right: 50px;
+}
+section#sectionbody {
+    background-color: white;
+    color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    overflow-x: auto;
+}
+nav#navsec {
+    margin-bottom: 20px;
+}
+nav#navsec ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#navsec li {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    width: 100px;    
+    font-size: 8pt;
+    border-radius: 10px;
+}
+nav#navsec li:hover {
+    background-color: rgb(108, 108, 238);
+}
+div#divtabsecdemo{
+    text-align: center;
+    height: auto;
+    width: auto;
+    padding: 3px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+@media screen and (max-width: 600px) {
+    table, tr,td {
+        display: block;
+        width: 100%;
+    }
+    td {
+        margin-bottom: 20px;
+    }
+}
+table#tabsecdemo tr {
+    text-align: center;
+}
+table#tabsecdemo td {
+    text-align: center;
+}
+img#icone {
+    margin-left: 40px;
+}
+nav#navmenu {
+    padding: 2px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+nav#navmenu ul {
+    list-style: none;
+    width: 200px;
+}
+nav#navmenu li {
+    display: block;
+    background: blue;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+nav#navmenu li:hover {
+    background-color: rgb(108, 108, 238);
+}
+aside#asidebody {
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+footer#rodape {
+    margin-top: 3px;
+    border-top: 1px solid white;
+}
+footer#rodape p {
+    text-indent: 0px;
+    text-align: center;
+}
+article#mostarticle p {
+    text-align: center;
+    text-indent: 0px;
+}
+article#mostarticle h3 {
+    padding-top: 20px;
+}
