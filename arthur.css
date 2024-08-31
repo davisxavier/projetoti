@@ -1,7 +1,7 @@
 body {
-    background-color: blue;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #54595F;
 }
 h1 {
     text-align: center;
@@ -16,19 +16,15 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 p {
-    text-align: justify;
+    text-align: center;
     text-indent: 50px;
 }
 a {
-    color: white;
+    color: #54595F;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
-}
-img {
-    max-width: 100%;
-    height: auto;
 }
 p#lmapa {
     text-align: right;
@@ -36,8 +32,8 @@ p#lmapa {
     padding-right: 50px;
 }
 section#sectionbody {
-    background-color: white;
-    color: blue;
+    background-color: #ffffff;
+    color: #54595F;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 10px;
@@ -48,86 +44,106 @@ section#sectionbody {
     max-width: 100%;
     overflow-x: auto;
 }
-nav#navsec {
-    margin-bottom: 20px;
+header#titlist {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif ;
 }
-nav#navsec ul {
+ul#album-fotos {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
     list-style: none;
-    text-transform: uppercase;
 }
-nav#navsec li {
-    display: inline-block;
-    background: blue;
-    color: white;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
-    width: 100px;    
-    font-size: 8pt;
-    border-radius: 10px;
-}
-nav#navsec li:hover {
-    background-color: rgb(108, 108, 238);
-}
-div#divtabsecdemo{
-    text-align: center;
-    height: auto;
-    width: auto;
-    padding: 3px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-td {
-    padding: 10px;
-    vertical-align: top;
-}
-@media screen and (max-width: 600px) {
-    table, tr,td {
-        display: block;
-        width: 100%;
-    }
-    td {
-        margin-bottom: 20px;
-    }
-}
-table#tabsecdemo tr {
-    text-align: center;
-}
-table#tabsecdemo td {
-    text-align: center;
-}
-img#icone {
-    margin-left: 40px;
-}
-nav#navmenu {
-    padding: 2px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid blue;
-}
-nav#navmenu ul {
-    list-style: none;
+ul#album-fotos li {
+    float: left;
     width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba (0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
 }
-nav#navmenu li {
-    display: block;
-    background: blue;
-    color: white;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
-    width: 100px;
-    border-radius: 10px;
-    font-size: 10pt;
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
 }
-nav#navmenu li:hover {
-    background-color: rgb(108, 108, 238);
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#album-fotos li:hover span {
+    opacity: 0;
+}
+ul#album-fotos li#foto1 {
+    background: url('a5.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto2 {
+    background: url('a6.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto3 {
+    background: url('a7.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto4 {
+    background: url('a8.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto5 {
+    background: url('a9.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto6 {
+    background: url('a10.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#album-fotos li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
 }
 aside#asidebody {
-    background-color: blue;
-    color: white;
+    background-color: #ffffff;
+    color: #54595F;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 10px;
@@ -138,7 +154,7 @@ aside#asidebody {
 }
 footer#rodape {
     margin-top: 3px;
-    border-top: 1px solid white;
+    border-top: 1px solid #F2D0C4;
 }
 footer#rodape p {
     text-indent: 0px;
