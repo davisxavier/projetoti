@@ -3,9 +3,6 @@ body {
     font-family: "Chakra Petch", sans-serif;
     background-color: #DDDDDD;
     background-image: url(backg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
