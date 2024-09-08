@@ -1,0 +1,352 @@
+<!--<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alura.css">
+    <title>Tecnologia da Informação</title>
+</head>
+<body>
+    <header>
+        <h1>Minha nova trejetória em TI</h1>
+    </header>
+    <section>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite sua busca" id="campo-pesquisa">
+            <button onclick="pesquisar()">Buscar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!--<div class="item-resultado">
+                <h2>Biografia</h2>
+                <p class="descricao-meta">
+                    Apaixonado por tecnologia e constantemente em busca de novos conhecimentos, estou atualmente desenvolvendo um site de teste para praticar e aprimorar as habilidades adquiridas no curso de Tecnologia da Informação.</p>
+                <p class="link"><a href="https://www.linkedin.com/in/davissxavier/" target="_blank">Linkedin</a></p>               
+            </div>
+            <div class="item-resultado">
+                <h2>História da Internet</h2>
+                <p class="descricao-meta">Este vídeo eu assiti enquanto buscava aprimoramento além do meu curso de tecnologia da informação, achei super interessante e por o responsável pedir sempre que divulgue seus serviços, achei legal colocar este iframe em meu site.</p>
+                <p class="link"><a href="https://davisxavier.github.io/projetoti/histinter.html" target="_blank">História da internet</a></p>
+            </div>
+            <div class="item-resultado">
+                <h2>Loja de Semijoias</h2>
+                <p class="link">Brilhe Todos os Dias com Nossas Semijoias Exclusivas!</p>
+
+                <p class="descricao-meta">    Descubra a coleção que vai transformar o seu look! Nossas semijoias combinam elegância, qualidade e preços acessíveis, perfeitas para todas as ocasiões.</p>
+                <p class="link"><a href="https://davisxavier.github.io/projetoti/fotos.html" target="_blank" rel="noopener noreferrer">Loja de Jóias (consignados)</a></p>
+            </div>
+            <div class="item-resultado">
+                <h2>Arthur <br>
+                    📸 Amante da Fotografia</h2>
+                <p class="descricao-meta">🌲 Escoteiro desde 08/22 | Cordão Verde e Amarelo 06/24 <br>
+
+                    🌟 Explorando o mundo através da lente e da vida escoteira!</p>
+                <p class="link"><a href="https://davisxavier.github.io/projetoti/arthur.html" target="_blank" rel="noopener noreferrer">Página sobre fotografia</a></p>                
+            </div>
+            <div class="item-resultado">
+                <h2>Mostrador de horário</h2>
+                <p class="descricao-meta">Conforme o horário do dia ele deve mudar a imagem como exibido nas opções abaixo. <br>
+
+                    Nas opções abaixo, aplico outros aprendizados, como um menu criado com listas e efeitos, onde, ao passar o mouse sobre os tópicos no computador, os efeitos devem ser exibidos.</p>
+                <p class="link"><a href="https://davisxavier.github.io/projetoti/mostrador.html" target="_blank"><br>Mostrador <br></a></p>
+            </div>
+            <div class="item-resultado">
+                <h2>Contato</h2>
+                <p class="descricao-meta">Se você não está familiarizado com o Git, mas gostaria de compartilhar sua opinião, fazer um elogio, ou entrar em contato por qualquer motivo (parceria, encontro, ou apenas testes), clique no link para acessar o meu formulário.</p>
+                <p class="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSes2leFtJYoQl27JLNvGJuZ1pTRk1_Ff8iAMpWxWCh6vO7lPA/viewform?usp=sf_link" target="_blank">Formulário</a></p>
+            </div>-->
+<!--        </section>
+    </main>
+    </section>
+    <footer>
+        <p>Copyright&copy; 2024 - by Davis</p><p>
+            <a href="https://www.instagram.com/davisnegocios/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a href="https://www.facebook.com/share/XYpfVf5u9uehzup8/?mibextid=qi2Omg" target="_blank" rel="noopener noreferrer">Facebook</a><br>
+            <a href="https://wa.me/5551993473324" target="_blank" rel="noopener noreferrer">Whats</a></p>
+    </footer> 
+    <script src="dados.js"></script>
+    <script src="app.js"></script>   
+</body>
+</html>-->
+
+
+<!--**************** CSS*************-->
+
+<!--
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #DDDDDD;
+    background-image: url(backg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro*/ 
+    letter-spacing: 0.4rem; /* Espaçamento entre letras*/
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: rgba(167, 60, 60, 0.836); /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+/* Estiliza cada item de resultado */
+.item-resultado {
+    width: 95%;
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    text-align: center;
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #30475E; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+.link {
+    text-align: center;
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+/* Estiliza o rodapé da página */
+footer {    
+    background-color: #25242431; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    opacity: .8;
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
+-->
+
+
+<!--**************** DADOS JS *************-->
+
+
+<!--let dados = [
+    {
+        titulo : "Biografia",
+        descricao : "Apaixonado por tecnologia e constantemente em busca de novos conhecimentos, estou atualmente desenvolvendo um site de teste para praticar e aprimorar as habilidades adquiridas no curso de Tecnologia da Informação.",
+        link : "https://www.linkedin.com/in/davissxavier/"
+    }, 
+    {
+        titulo : "História da Internet",
+        descricao : "Este vídeo eu assiti enquanto buscava aprimoramento além do meu curso de tecnologia da informação, achei super interessante e por o responsável pedir sempre que divulgue seus serviços, achei legal colocar este iframe em meu site.",
+        link : "https://davisxavier.github.io/projetoti/histinter.html",
+    },
+    {
+        titulo : "Loja de Semijoias",
+        descricao : "Brilhe Todos os Dias com Nossas Semijoias Exclusivas!  Descubra a coleção que vai transformar o seu look! Nossas semijoias combinam elegância, qualidade e preços acessíveis, perfeitas para todas as ocasiões.",
+        link : "https://davisxavier.github.io/projetoti/fotos.html",
+    },
+    {
+        titulo : "Arthur 📸 Amante da Fotografia",
+        descricao : "🌲 Escoteiro desde 08/22 | Cordão Verde e Amarelo 06/24 🌟 Explorando o mundo através da lente e da vida escoteira!",
+        link : "https://davisxavier.github.io/projetoti/arthur.html",
+    },
+    {
+        titulo : "Mostrador de horário",
+        descricao : "Conforme o horário do dia ele deve mudar a imagem como exibido nas opções abaixo. Nas opções abaixo, aplico outros aprendizados, como um menu criado com listas e efeitos, onde, ao passar o mouse sobre os tópicos no computador, os efeitos devem ser exibidos.",
+        link : "https://davisxavier.github.io/projetoti/mostrador.html",
+    },
+    {
+        titulo : "Contato",
+        descricao : "Se você não está familiarizado com o Git, mas gostaria de compartilhar sua opinião, fazer um elogio, ou entrar em contato por qualquer motivo (parceria, encontro, ou apenas testes), clique no link para acessar o meu formulário.",
+        link : "https://docs.google.com/forms/d/e/1FAIpQLSes2leFtJYoQl27JLNvGJuZ1pTRk1_Ff8iAMpWxWCh6vO7lPA/viewform?usp=sf_link",
+    }
+]-->
+<!--**************** APP JS*************-->
+<!--function pesquisar(){
+//console.log(dados);
+//console.log(dados [0].descricao);//
+let section = document.getElementById("resultados-pesquisa");
+let campoPesquisa = document.getElementById("campo-pesquisa").value
+
+
+if (campoPesquisa == "") {
+    section.innerHTML= "<p>Nada foi encontrado<p> "
+    return
+} 
+
+campoPesquisa = campoPesquisa.toLowerCase()
+    
+//console.log(dado.titulo.includes(campoPesquisa))
+//console.log(campoPesquisa);
+let  resultados = "";
+let titulo = "";
+let descricao = "";
+let link = "";
+//para cada dado dentro da lista de dados
+for (let dado of dados) {
+    titulo = dado.titulo.toLowerCase()
+    descricao = dado.descricao.toLowerCase()
+    link = dado.link.toLowerCase()
+    if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || link.includes(campoPesquisa)){
+        resultados += `
+        <div class="item-resultado">
+            <h2>${dado.titulo}</h2>
+            <p class="descricao-meta">${dado.descricao}</p>
+            <p class="link"><a href="${dado.link}" target="_blank"></a></p>               
+        </div>`}
+    //    <div class="item-resultado">
+    //        <h2>História da Internet</h2>
+    //        <p class="descricao-meta">Este vídeo eu assiti enquanto buscava aprimoramento além do meu curso de tecnologia da informação, achei super interessante e por o responsável pedir sempre que divulgue seus serviços, achei legal colocar este iframe em meu site.</p>
+    //        <p class="link"><a href="https://davisxavier.github.io/projetoti/histinter.html" target="_blank">História da internet</a></p>
+    //    </div>
+    //    <div class="item-resultado">
+    //        <h2>Loja de Semijoias</h2>
+    //        <p class="link">Brilhe Todos os Dias com Nossas Semijoias Exclusivas!</p>
+    
+    //        <p class="descricao-meta">    Descubra a coleção que vai transformar o seu look! Nossas semijoias combinam elegância, qualidade e preços acessíveis, perfeitas para todas as ocasiões.</p>
+    //        <p class="link"><a href="https://davisxavier.github.io/projetoti/fotos.html" target="_blank" rel="noopener noreferrer">Loja de Jóias (consignados)</a></p>
+    //    </div>
+    //    <div class="item-resultado">
+    //        <h2>Arthur <br>
+    //            📸 Amante da Fotografia</h2>
+    //        <p class="descricao-meta">🌲 Escoteiro desde 08/22 | Cordão Verde e Amarelo 06/24 <br>
+    //
+    //            🌟 Explorando o mundo através da lente e da vida escoteira!</p>
+    //        <p class="link"><a href="https://davisxavier.github.io/projetoti/arthur.html" target="_blank" rel="noopener noreferrer">Página sobre fotografia</a></p>                
+    //    </div>
+    //    <div class="item-resultado">
+    //        <h2>Mostrador de horário</h2>
+    //        <p class="descricao-meta">Conforme o horário do dia ele deve mudar a imagem como exibido nas opções abaixo. <br>
+    //
+    //            Nas opções abaixo, aplico outros aprendizados, como um menu criado com listas e efeitos, onde, ao passar o mouse sobre os tópicos no computador, os efeitos devem ser exibidos.</p>
+    //<p class="link"><a href="https://davisxavier.github.io/projetoti/mostrador.html" target="_blank"><br>Mostrador <br></a></p>
+    //    </div>
+    //    <div class="item-resultado">
+    //        <h2>Contato</h2>
+    //        <p class="descricao-meta">Se você não está familiarizado com o Git, mas gostaria de compartilhar sua opinião, fazer um elogio, ou entrar em contato por qualquer motivo (parceria, encontro, ou apenas testes), clique no link para acessar o meu formulário.</p>
+    //        <p class="link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSes2leFtJYoQl27JLNvGJuZ1pTRk1_Ff8iAMpWxWCh6vO7lPA/viewform?usp=sf_link" target="_blank">Formulário</a></p>
+    //    </div>
+    //`
+    //}
+    section.innerHTML=resultados
+    }
+    }
+
+    
+    -->
