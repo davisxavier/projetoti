@@ -1,0 +1,57 @@
+/*******************************code google fonts*********************/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+/*#############################code google fonts####################*/
+/*******************************code estrutura básica da página*********************/
+
+body {
+    background-color: #000000;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/*#############################code estrutura básica da página####################*/
+
+/*******************************code footer*********************/
+footer {
+    font-size: 10px;
+    margin-top: 3px;
+    border-top: 1px solid white;
+}
+footer p {
+    text-indent: 0px;
+    text-align: center;
+}
+/*#############################code footer####################*/
