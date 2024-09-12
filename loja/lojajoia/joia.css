@@ -1,21 +1,12 @@
-/*******************************code google fonts*********************/
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-/*#############################code google fonts####################*/
 /*******************************code estrutura básica da página*********************/
 body {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    background-color:  #808080; 
-    color: #000000;
+    background-color:  #F2D0C4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #54595F;
 }
 h1 {
-    font-family: "Orbitron", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     text-align: center;
@@ -41,7 +32,7 @@ p {
     text-indent: 50px;
 }
 a {
-    color: #000000;
+    color: #54595F;
     text-decoration: none;
 }
 a:hover {
@@ -52,22 +43,15 @@ section{
     justify-content: center; 
 }
 main{
-    width: 90%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #000000;
+    background-color: #F2D0C4;
     display: flex;
     justify-content:center; 
-    border-radius: 10px;
-}
-img{
+    padding: 15px;
     border-radius: 10px;
 }
 /*#############################code estrutura básica da página####################*/
 /*******************************code main*********************/
 .divmain{
-    display: flex;
-    justify-content: center;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 15px;
@@ -75,48 +59,35 @@ img{
     
 }
 .divmainjoia{
-    display: flex;
-    justify-content: baseline;
-    text-align: center;
-    background-color: #F2D0C4;
-    border-radius: 10px;
-    margin: 4px;
-    padding: 2px;
-    width: 30%;
-}
-.mainjoia{
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 5px;
-    padding: 2px;
+    padding: 15px;
 }
-.divmainarthur{
-    display: flex;
-    justify-content: baseline;
+.divjoia{
+   
     text-align: center;
-    background-color: #000000;
-    border-radius: 10px;
-    margin: 4px;
-    padding: 2px;
-    width: 30%;
-}
-.mainarthur{
     background-color: #ffffff;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 2px;
 }
+.fotosjoia{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+.tablefotos{
+    text-align: center;
+    width: 100%;   
+}
+
 /*******************************code footer*********************/
 footer {
-    background-color: #808080;
+    background-color: #F2D0C4;
     width: 90%;
     font-size: 12px;
     margin-top: 15px;
     border-top: 2px solid #54595f50;
     border-radius: 10px;
     letter-spacing: 1px;
-    position: absolute;
-    bottom: 0;
 }
 footer p {
     text-indent: 0px;

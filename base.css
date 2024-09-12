@@ -14,14 +14,24 @@
 */
 /*#############################code google fonts####################*/
 /*******************************code estrutura básica da página*********************/
-
+/*******************************code google fonts*********************/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/*#############################code google fonts####################*/
+/*******************************code estrutura básica da página*********************/
 body {
-    background-color: #000000;
-    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color:  #c5fc6ebd;
+    color: #54595F;
 }
 h1 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     text-align: center;
@@ -31,24 +41,64 @@ h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 p {
-    text-align: justify;
+    margin-top: .7px;
+    text-align: center;
     text-indent: 50px;
 }
 a {
-    color: white;
+    color: #54595F;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
+section{    
+    display: flex;
+    justify-content: center; 
+}
+main{
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F2D0C4;
+    display: flex;
+    justify-content:center; 
+    border-radius: 10px;
+}
 /*#############################code estrutura básica da página####################*/
-
+/*******************************code main*********************/
+.divmain{
+    display: block;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    
+}
 /*******************************code footer*********************/
 footer {
-    font-size: 10px;
-    margin-top: 3px;
-    border-top: 1px solid white;
+    margin-block-end: 10px;
+    background-color: #F2D0C4;
+    width: 90%;
+    font-size: 12px;
+    margin-top: 15px;
+    border-top: 2px solid #54595f50;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 0;
 }
 footer p {
     text-indent: 0px;
