@@ -1,0 +1,137 @@
+/*******************************code google fonts*********************/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+/*#############################code google fonts####################*/
+/*******************************code estrutura básica da página*********************/
+/*******************************code google fonts*********************/
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+/*#############################code google fonts####################*/
+/*******************************code estrutura básica da página*********************/
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color:  #808080;
+    color: #ffffff;
+}
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+}
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h6 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin-top: .7px;
+    text-align: center;
+    text-indent: 50px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+section{    
+    display: flex;
+    justify-content: center; 
+}
+main{
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    display: flex;
+    justify-content:center; 
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
+/*#############################code estrutura básica da página####################*/
+/*******************************code main*********************/
+.divmain{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    color: #000000;
+    
+}
+.divarthur{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    color: #000000;    
+}
+.arthur{
+    letter-spacing: 1px;
+    margin: 2px;
+}
+.arthurqr{
+    display: block;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin: 2px;
+}
+.arthurqr img{
+    
+}
+/*******************************code footer*********************/
+footer {
+    margin-block-end: 10px;
+    background-color: #000000;
+    width: 90%;
+    font-size: 12px;
+    margin-top: 15px;
+    border-top: 2px solid #ffffff;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 0;
+}
+footer p {
+    text-indent: 0px;
+    text-align: center;
+}
+/*#############################code footer####################*/
