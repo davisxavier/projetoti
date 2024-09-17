@@ -78,6 +78,13 @@ main{
     text-align: center;
     width: 100%;   
 }
+.tablefotos td{
+    text-align: center;
+    width: 100%;   
+}
+.tablefotos img{
+    border-radius: 10px;  
+}
 
 /*******************************code footer*********************/
 footer {
