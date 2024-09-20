@@ -20,7 +20,7 @@ for (let dado of dados) {
         <div class="item-resultado">
             <h2>${dado.titulo}</h2>
             <p class="descricao-meta">${dado.descricao}</p>
-            <p class="link"><a href="${dado.link}" target="_blank"></a></p>               
+            <p class="link"><a href="${dado.link}" target="_blank">${dado.linkn}</a></p>               
         </div>`}
     section.innerHTML=resultados
     }
