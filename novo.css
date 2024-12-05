@@ -1,0 +1,55 @@
+body{
+    background-color: #facf73;
+    background-attachment:scroll;
+}
+main{
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div#divmain{
+    
+}
+div#curt{
+
+}
+div#cur{
+    position: relative;
+    z-index: 1;
+   background-color: orange;
+}
+div#cert{
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    margin-top: 2rem;
+}
+iframe{
+        width: 80em;
+        height: 15em;
+}
+aside{
+
+}
+footer{
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    display: block; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3px;
+    border-top: 1px solid #000000;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
