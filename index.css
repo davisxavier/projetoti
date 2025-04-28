@@ -114,6 +114,8 @@ footer p {
         font-size: 0.9em; /* Mantém o tamanho da fonte, mas podemos ajustar se necessário */
         margin-top: 15px; /* Aumenta um pouco a margem superior para separação */
         margin-bottom: 15px; /* Adiciona margem inferior para separar dos botões */
+        margin-left: 10px;
+        margin-right: 10px;
         line-height: 1.4; /* Melhora a legibilidade em telas menores */
         padding: 0 15px; /* Adiciona um pequeno espaçamento lateral */
         text-align: center; /* Centraliza o texto da chamada */
