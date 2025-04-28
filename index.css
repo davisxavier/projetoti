@@ -109,5 +109,19 @@ footer p {
     h2 {
         font-size: 1.2em; /* Reduz um pouco o tamanho do subtítulo */
     }
+    /* Estilos para o parágrafo da chamada */
+    .maindiv p {
+        font-size: 0.9em; /* Mantém o tamanho da fonte, mas podemos ajustar se necessário */
+        margin-top: 15px; /* Aumenta um pouco a margem superior para separação */
+        margin-bottom: 15px; /* Adiciona margem inferior para separar dos botões */
+        line-height: 1.4; /* Melhora a legibilidade em telas menores */
+        padding: 0 15px; /* Adiciona um pequeno espaçamento lateral */
+        text-align: center; /* Centraliza o texto da chamada */
+    }
+
+    .maindiv p a {
+        font-size: 0.9em; /* Garante que o link tenha o mesmo tamanho da fonte */
+        font-weight: bold; /* Destaca o "Entre em contato" */
+    }
 }
 /*############################# Fim Media Queries para Mobile ####################*/
