@@ -39,13 +39,13 @@ a:hover {
 }
 main{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 /*#############################code estrutura básica da página####################*/
 /*******************************code main*********************/
 .maindiv{
     display: block;
-    justify-content: center;      
+    justify-content: center;
     width: 80%;
     padding-bottom: 15px;
     border-radius: 10px;
@@ -62,6 +62,19 @@ main{
     margin-right: 3px;
     color: #ffffff;
     font-size: 12pt;
+    display: flex; /* Para alinhar imagem e texto */
+    align-items: center; /* Alinhar verticalmente */
+    justify-content: center; /* Centralizar conteúdo */
+    gap: 5px; /* Espaço entre imagem e texto */
+}
+.botao img {
+    width: 20px;
+    height: 20px;
+}
+.maindiv img {
+    max-width: 90%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto;
+    margin-bottom: 10px;
 }
 /*#############################code main ####################*/
 /*******************************code footer*********************/
@@ -76,3 +89,33 @@ footer p {
     text-align: center;
 }
 /*#############################code footer####################*/
+
+/*############################# Media Queries para Mobile ####################*/
+@media (max-width: 768px) {
+    .maindiv {
+        width: 95%; /* Aumenta a largura em telas menores */
+        margin: 10px auto; /* Adiciona margem para centralizar e dar espaço */
+        padding-bottom: 20px;
+    }
+    .botao {
+        width: 90%; /* Aumenta a largura dos botões para ocupar mais espaço */
+        margin: 5px auto; /* Centraliza os botões e adiciona margem vertical */
+        padding: 18px; /* Aumenta o padding para melhor toque */
+        font-size: 14pt; /* Aumenta a fonte para melhor leitura */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; /* Aumenta o espaço entre imagem e texto */
+    }
+    .botao img {
+        width: 25px; /* Aumenta o tamanho da imagem no botão */
+        height: 25px; /* Aumenta o tamanho da imagem no botão */
+    }
+    h1 {
+        font-size: 1.5em; /* Reduz um pouco o tamanho do título */
+    }
+    h2 {
+        font-size: 1.2em; /* Reduz um pouco o tamanho do subtítulo */
+    }
+}
+/*############################# Fim Media Queries para Mobile ####################*/
