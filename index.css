@@ -66,6 +66,7 @@ main{
     align-items: center; /* Alinhar verticalmente */
     justify-content: center; /* Centralizar conteúdo */
     gap: 5px; /* Espaço entre imagem e texto */
+    margin-bottom: 5px; /* Adiciona um pouco de espaço entre os botões */
 }
 .botao img {
     width: 20px;
@@ -102,9 +103,6 @@ footer p {
         margin: 5px auto; /* Centraliza os botões e adiciona margem vertical */
         padding: 18px; /* Aumenta o padding para melhor toque */
         font-size: 14pt; /* Aumenta a fonte para melhor leitura */
-        display: flex;
-        align-items: center;
-        justify-content: center;
         gap: 10px; /* Aumenta o espaço entre imagem e texto */
     }
     .botao img {
